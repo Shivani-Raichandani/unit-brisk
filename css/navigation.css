@@ -1,0 +1,49 @@
+header {
+  width: 100%;
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 0.5rem 7%;
+}
+
+header a img {
+  height: 80px;
+  width: 160px;
+  margin: 0;
+  padding-top: 1rem;
+}
+
+header .navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+header .navbar ul li {
+  width: 120px;
+  text-align: center;
+  margin: 0;
+}
+
+header .navbar ul li a {
+  color: #fff;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+header .navbar ul li.active,
+header .navbar ul li:hover {
+  color: #00c7ff;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.459)
+  );
+  border-bottom: 0.2rem solid #00c7ff;
+  padding: 0.7rem 0;
+}
