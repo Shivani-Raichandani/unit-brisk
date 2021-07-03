@@ -1,0 +1,10 @@
+.work img {
+  width: 100%;
+  min-height: 80vh;
+  background-size: cover;
+}
+
+section .work {
+  background-color: #00c7ff;
+  min-height: 80vh;
+}
