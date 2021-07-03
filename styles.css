@@ -1,7 +1,8 @@
 /* import external sheets from css folder */
 @import "css/navigation.css";
 @import "css/footer.css";
-/* @import "homepage.css"; */
+@import "css/homepage.css";
+@import "css/work.css";
 /* import external sheets from css folder end */
 
 /* google font */
@@ -19,7 +20,7 @@
 }
 
 section {
-  min-height: 100vh;
+  min-height: 90vh;
 }
 /* global styles end */
 
