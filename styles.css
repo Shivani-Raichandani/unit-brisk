@@ -32,3 +32,31 @@ section {
   height: 600px;
 }
 /* parallax end */
+
+.mission{
+  background: url('images/Mission\ and\ vision\ background\ psd.jpg');
+  background-size: cover;
+}
+.contact{
+  background: url('images/contactbg.jpg');
+  background-size: cover;
+}
+.overlay{
+  
+  background-size: cover;
+  position: absolute;
+  top: 815%;
+  left: 10%;
+  max-width: 80%;
+  width: 1200px;
+  height: 100vh;
+}
+.contact-form{
+  padding-top: 100px;
+  padding-left: 60px;
+}
+.contact-form h1{
+  color: white;
+  font-size: 36px;
+}
+
