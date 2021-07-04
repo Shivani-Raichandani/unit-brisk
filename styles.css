@@ -20,7 +20,7 @@
 }
 
 section {
-  min-height: 90vh;
+  min-height: 100vh;
 }
 /* global styles end */
 
@@ -29,7 +29,7 @@ section {
   background: url("images/Homepage background.jpg") no-repeat center;
   background-size: cover;
   background-attachment: fixed;
-  height: 500px;
+  height: 600px;
 }
 /* parallax end */
 
