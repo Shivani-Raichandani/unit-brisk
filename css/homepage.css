@@ -2,8 +2,8 @@ section .home {
   min-height: 100vh;
 }
 .parallax .home .home-content {
-  width: 800px;
-  padding: 18% 0% 0% 15%;
+  width: 750px;
+  padding: 18% 0% 0% 10%;
   color: #fff;
 }
 
