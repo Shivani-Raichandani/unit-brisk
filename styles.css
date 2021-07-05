@@ -3,6 +3,7 @@
 @import "css/footer.css";
 @import "css/homepage.css";
 @import "css/work.css";
+@import "css/mission.css";
 /* import external sheets from css folder end */
 
 /* google font */
@@ -33,10 +34,7 @@ section {
 }
 /* parallax end */
 
-.mission{
-  background: url('images/Mission\ and\ vision\ background\ psd.jpg');
-  background-size: cover;
-}
+
 .contact{
   background: url('images/contactbg.jpg');
   background-size: cover;

@@ -1,0 +1,47 @@
+.mission img{
+    width: 100%;
+    height: 100vh;
+}
+
+.mission-vision-content {
+    width: 780px;
+    padding-left: 10%;
+    /*color: #fff;*/
+    margin-top: -47%;
+}
+
+.mission-heading{
+    font-size: xx-large; 
+    text-align: center; 
+    padding-top: 6%;
+}
+
+.vision-content{
+   /* padding-left: 10%; */
+    padding-bottom: 50px; 
+    padding-top: 50px
+}
+
+.vision-content span{
+    color: #00c7ff; 
+    font-size: 30px;
+}
+.vision-content p{
+    color: white; 
+    font-size: 20px;
+}
+
+.mission-content{
+    /*padding-left: 10%; */
+    padding-top: 40px; 
+    padding-bottom: 100px;
+}
+
+.mission-content span{
+    color: #00c7ff; 
+    font-size: 30px;
+}
+.mission-content p{
+    color: white; 
+    font-size: 20px;
+}
