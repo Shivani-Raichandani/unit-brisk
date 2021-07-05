@@ -27,6 +27,13 @@
     />
     <!-- box icon end -->
 
+    <!-- swiper.js cdn -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <!-- swiper.js cdn end -->
+
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -84,34 +91,131 @@
       <!-- home start end -->
 
       <!-- how it works start -->
-      <div class="parallax">
-        <section class="work" id="work" id="circleBar">
+       <div class="parallax">
+        <section class="work" id="work">
           <img
             src="images/2nd page Cure Rate Background image.jpg"
             alt=""
             style="background-size: cover"
           />
-          <div class="work-content">
-            <h3><span>ABOUT THE CELL</span></h3>
-            <h1>INTRODUCING THE</h1>
-            <h1><b>ABC CELL</b></h1>
-            <p>
-              Newly Discovered ABC CELL also hold the key to the most stubborn
-              biological condition, better known as Cancer. Imagine a technology
-              that can decode the most stubborn biological puzzle.
-            </p>
-
-            <div
-              class="round"
-              data-value="0.75"
-              data-size="80"
-              data-thickness="6"
-            >
-              <p style="text-transform: uppercase">
-                cure rate expected at stage 1
+          <div class="content">
+            <div class="work-content">
+              <h3><span>ABOUT THE CELL</span></h3>
+              <h1>INTRODUCING THE</h1>
+              <h1><b>ABC CELL</b></h1>
+              <p>
+                Newly Discovered ABC CELL also hold the key to the most stubborn
+                biological condition, better known as Cancer. Imagine a
+                technology that can decode the most stubborn biological puzzle.
               </p>
-              <strong></strong>
+
+              <div
+                class="round"
+                data-value="0.75"
+                data-size="80"
+                data-thickness="6"
+              >
+                <p style="text-transform: uppercase">
+                  cure rate expected at stage 1
+                </p>
+                <strong></strong>
+              </div>
             </div>
+
+            <!-- demo slider -->
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <h3
+                    style="
+                      text-align: center;
+                      align-items: center;
+                      color: #0a4268;
+                      font-size: x-large;
+                      font-weight: bolder;
+                    "
+                  >
+                    Stage 1
+                  </h3>
+                  <p style="text-align: center; align-items: center">Cure Rate <br><span style="color: #0a4268;">70-90%</span></p>
+                  <div
+                    class="rounds"
+                    data-value="0.90"
+                    data-size="80"
+                    data-thickness="6"
+                  >
+                    <strong></strong>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <h3
+                    style="
+                      text-align: center;
+                      align-items: center;
+                      color: #0a4268;
+                      font-size: x-large;
+                      font-weight: bolder;
+                    "
+                  >
+                    Stage 2
+                  </h3>
+                  <p style="text-align: center; align-items: center">Cure Rate <br><span style="color: #0a4268;">50-80%</p>
+                  <div
+                    class="rounds"
+                    data-value="0.80"
+                    data-size="80"
+                    data-thickness="6"
+                  >
+                    <strong></strong>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <h3
+                    style="
+                      text-align: center;
+                      align-items: center;
+                      color: #0a4268;
+                      font-size: x-large;
+                      font-weight: bolder;
+                    "
+                  >
+                    Stage 3
+                  </h3>
+                  <p style="text-align: center; align-items: center">Cure Rate <br><span style="color: #0a4268;">60-30%</p>
+                  <div
+                    class="rounds"
+                    data-value="0.60"
+                    data-size="80"
+                    data-thickness="6"
+                  >
+                    <strong></strong>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <h3
+                    style="
+                      text-align: center;
+                      align-items: center;
+                      color: #0a4268;
+                      font-size: x-large;
+                      font-weight: bolder;
+                    "
+                  >
+                    Stage 4
+                  </h3>
+                  <p style="text-align: center; align-items: center">Cure Rate <br><span style="color: #0a4268;">Less than 20%</p>
+                  <div
+                    class="rounds"
+                    data-value="0.20"
+                    data-size="80"
+                    data-thickness="6"
+                  >
+                    <strong></strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- demo slider end -->
           </div>
         </section>
       </div>
@@ -247,5 +351,13 @@
     <!-- progress bar script -->
     <script src="js/progressbar.js"></script>
     <!-- progress bar script end -->
+
+    <!-- swiper.js script -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- swiper.js script end -->
+
+    <!-- swiper script -->
+    <script src="js/swiper.js"></script>
+    <!-- swiper script end -->
   </body>
 </html>
