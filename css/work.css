@@ -9,8 +9,8 @@ section .work {
 }
 
 .work-content {
-  width: 780px;
-  padding-left: 15%;
+  width: 50%;
+  padding-left: 10%;
   color: #fff;
   margin-top: -37%;
 }
@@ -32,4 +32,22 @@ section .work {
   line-height: 1.7rem;
   margin-top: 1.2rem;
   margin-bottom: 2.5rem;
+}
+
+.round {
+  min-height: 255px;
+  margin-top: 30px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.round strong {
+  position: absolute;
+  top: 29%;
+  left: 7.25%;
+  margin-top: -50px;
+  transform: translate(-50%);
+  font-size: medium;
+  color: #fff;
+  font-weight: 100;
 }
