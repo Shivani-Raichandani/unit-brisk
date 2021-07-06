@@ -97,4 +97,12 @@ section .work {
   font-weight: 700;
 }
 
+.swiper-slide h3{
+  text-align: center;
+              align-items: center;
+                      color: #0a4268;
+                      font-size: x-large;
+                      font-weight: bolder;
+}
+
 /* slider end */
