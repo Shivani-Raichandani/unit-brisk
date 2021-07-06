@@ -4,6 +4,8 @@
 @import "css/homepage.css";
 @import "css/work.css";
 @import "css/mission.css";
+@import "css/media.css";
+@import "css/contact.css";
 /* import external sheets from css folder end */
 
 /* google font */
@@ -33,28 +35,3 @@ section {
   height: 600px;
 }
 /* parallax end */
-
-
-.contact{
-  background: url('images/contactbg.jpg');
-  background-size: cover;
-}
-.overlay{
-  
-  background-size: cover;
-  position: absolute;
-  top: 700%;
-  left: 10%;
-  max-width: 80%;
-  width: 1200px;
-  height: 100vh;
-}
-.contact-form{
-  padding-top: 100px;
-  padding-left: 60px;
-}
-.contact-form h1{
-  color: white;
-  font-size: 36px;
-}
-

@@ -1,0 +1,11 @@
+.media{
+    background: url('../images/Mediapage\ background\ .jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.vl{
+    border-left: 6px solid white;
+  height: 500px;
+}
