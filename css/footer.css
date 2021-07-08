@@ -72,9 +72,12 @@ footer .box-container .box a i {
   color: #ccc;
 }
 
-footer .box-container .box i:hover,
-footer .box-container .box a:hover {
+footer .box-container .box i:hover {
   color: #00c7ff;
+}
+
+footer h3 {
+  font-size: 1rem;
 }
 
 /* media queries max width 768px */

@@ -60,7 +60,7 @@ section .work {
 
 .swiper-container {
   width: 50%;
-  left: 25%;
+  left: 23%;
   margin-top: -35%;
 }
 
@@ -71,8 +71,8 @@ section .work {
   width: 250px;
   height: 300px;
   color: #fff;
-  /* border-radius: 10px; */
-  background: linear-gradient(#00c8ff88, rgba(255, 255, 255, 0.329));
+  border-radius: 10px;
+  background: linear-gradient(#00c7ff, rgba(255, 255, 255, 0));
 }
 
 .swiper-slide .rounds {
@@ -97,12 +97,12 @@ section .work {
   font-weight: 700;
 }
 
-.swiper-slide h3{
+.swiper-slide h3 {
   text-align: center;
-              align-items: center;
-                      color: #0a4268;
-                      font-size: x-large;
-                      font-weight: bolder;
+  align-items: center;
+  color: #0a4268;
+  font-size: x-large;
+  font-weight: bolder;
 }
 
 /* slider end */
