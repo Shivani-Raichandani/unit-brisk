@@ -6,6 +6,12 @@
 }
 
 .vl{
-    border-left: 6px solid white;
-  height: 500px;
+    border-left: 2px solid white;
+    height: 440px;
+    margin-top: 25%;
+}
+
+#award{
+  width: 150px;
+  margin-left: 35%;
 }

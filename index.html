@@ -7,7 +7,12 @@
     <title>Cell Kinetics</title>
     <!-------------------->
     <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css"
+    />
     <!-------------------------->
     <link rel="shortcut icon" type="image/jpg" href="images/cells.png" />
 
@@ -195,16 +200,46 @@
 
       <div class="parallax"></div>
       <section class="media" id="media">
-        <div class="container-fluid" style="padding: 10%;">
+        <div class="container-fluid">
           <div class="row">
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="padding: 5%;">
+              <img src="images/awards.png" id="award">
+              <br>
               <!--------------------------carousel-start------------------------------>
-              
+              <div id="certificateCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <h3 class="text-white text-center">Bussiness Certificate</h3>
+                    <img src="images/Business Connect_Certificate.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <h3 class="text-white text-center">StartUp Certificate</h3>
+                    <img src="images/Certificate_R_STARTUP_UP_LKO_2020_000077.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <h3 class="text-white text-center">Blu Ocean Studios Pvt. Ltd.</h3>
+                    <img src="images/Blu Ocean Studios Pvt. Ltd.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+              </div>
+              <!-----------------------------carousel-end-------------------------------------->
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <div class="row">
+              <div class="vl col-md-2">
+                <!--div class="vl"></div-->
+              </div>
+              <div class="col-md-10">
+                <div class="text">
+                  <h1>Awards & Recognition</h1>
+                </div>
+              </div>
             </div>
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6"><h1>Sarishri</h1></div>
+            
+            
+          </div>
           </div>
         </div>
-        <!--div class="vl"></div-->
       </section>
       <div class="parallax" style="height: 500px;"></div>
       <!-- mission start -->
@@ -380,5 +415,8 @@
     <!-- swiper script -->
     <script src="js/swiper.js"></script>
     <!-- swiper script end -->
+    <!--Twitter start-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    <!---Twitter script end-->
   </body>
 </html>
