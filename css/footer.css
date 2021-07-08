@@ -1,6 +1,6 @@
 footer {
   /*  min-height: auto; */
-  height: 600px;
+  height: 450px;
   padding: 1% 5% 1% 5%;
   background: rgba(0, 0, 0, 0.774);
 }
@@ -13,7 +13,7 @@ footer .box-container {
 
 footer .box-container .box {
   flex: 1 1 12rem;
-  margin: 2rem;
+  /* margin: 2rem; */
   padding-left: 5%;
 }
 
@@ -24,8 +24,6 @@ footer .box-container .links {
 footer .box-container .box h3 {
   font-size: 1.5rem;
   color: #fff;
-  padding-bottom: 1rem;
-  padding-top: 1rem;
   font-weight: normal;
 }
 
@@ -70,6 +68,11 @@ footer .box-container .box a {
   display: block;
 }
 
+footer .box-container .box a i {
+  color: #ccc;
+}
+
+footer .box-container .box i:hover,
 footer .box-container .box a:hover {
   color: #00c7ff;
 }
@@ -101,8 +104,6 @@ footer .box-container .box a:hover {
   footer .box-container .box h3 {
     font-size: 1.5rem;
     color: #fff;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
     font-weight: normal;
   }
 
