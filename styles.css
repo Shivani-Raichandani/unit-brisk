@@ -23,7 +23,7 @@
 }
 
 section {
-  min-height: 100vh;
+  min-height: 95vh;
 }
 /* global styles end */
 
@@ -36,7 +36,7 @@ section {
 }
 /* parallax end */
 
-.container-fluid{
+.container-fluid {
   padding-left: 0rem;
   padding-right: 0rem;
   overflow: hidden;
