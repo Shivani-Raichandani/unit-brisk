@@ -41,8 +41,12 @@
     color: #00c7ff; 
     font-size: 30px;
 }
+
 .mission-content p{
     color: white; 
     font-size: 20px;
 }
 
+.hl{
+    border-bottom: 2px solid white;
+}
