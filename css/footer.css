@@ -72,8 +72,7 @@ footer .box-container .box a i {
   color: #ccc;
 }
 
-footer .box-container .box i:hover,
-footer .box-container .box a:hover {
+footer .box-container .box i:hover {
   color: #00c7ff;
 }
 
