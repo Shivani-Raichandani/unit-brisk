@@ -76,6 +76,10 @@ footer .box-container .box i:hover {
   color: #00c7ff;
 }
 
+footer h3 {
+  font-size: 1rem;
+}
+
 /* media queries max width 768px */
 @media (max-width: 768px) {
   footer {
