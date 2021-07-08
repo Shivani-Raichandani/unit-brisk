@@ -11,7 +11,27 @@
     margin-top: 25%;
 }
 
+.slider{
+  padding-top: 3%;
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-bottom: 6%;
+}
+
 #award{
   width: 150px;
   margin-left: 35%;
+}
+
+.text{
+padding-top: 56%;
+}
+
+.text h1{
+  color: white;
+  text-transform: uppercase;
+}
+
+.text span{
+  color: #00c7ff;
 }
