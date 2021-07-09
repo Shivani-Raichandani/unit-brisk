@@ -26,7 +26,10 @@ header .navbar ul {
 }
 
 header .navbar ul li {
-  margin-left: 1.5rem;
+  width: 120px;
+  margin-left: auto;
+  padding: auto;
+  text-align: center;
 }
 
 header .navbar ul li a {
@@ -48,8 +51,8 @@ header .navbar ul li:hover {
 
 /* for responsiveness */
 #menu {
-  font-size: 1.5rem;
-  color: #999;
+  font-size: 2rem;
+  color: rgb(207, 205, 205);
   cursor: pointer;
   display: none;
 }
@@ -62,56 +65,56 @@ header .navbar ul li:hover {
   header .navbar {
     position: fixed;
     top: 8rem;
-    /* left: -120%; */
-    left: 0;
-    height: 100%;
+    left: -120%;
+    /* left: 0; */
+    height: 80%;
     width: 100%;
-    background: linear-gradient(#fff, #00c7ff);
+    background: linear-gradient(rgba(0, 0, 0, 0.63), #094050af);
     border-top: 0.2rem solid rgba(0, 0, 0, 0.1);
   }
 
   header .navbar ul {
     flex-flow: column;
-    padding: 1rem;
-    /* margin-left: 37%; */
-  }
-
-
-
-  /* header .navbar ul {
-    flex-flow: column;
-    padding: 1rem;
+    padding: 2rem 2rem 2rem 5rem;
   }
 
   header .navbar ul li {
-    text-align: center;
-    width: 100%;
-    margin: 0.8rem 0;
+    text-align: left;
+    width: 300px;
+    margin: 0.7rem 0;
   }
 
   header .navbar ul li a {
     display: block;
-    padding: 0.6rem;
+    padding: 0.6rem 0.6rem 0.6rem 2rem;
   }
 
   header .navbar ul li a.active,
   header .navbar ul li:hover {
     color: #00c7ff;
     background: linear-gradient(
-      rgba(255, 255, 255, 0),
-      rgba(255, 255, 255, 0.459)
+      to right,
+      rgba(255, 255, 255, 0.459),
+      rgba(255, 255, 255, 0)
     );
     border-bottom: none;
     border-left: 0.2rem solid #00c7ff;
     padding: 0.3rem 0;
   }
 
-  .fa-times {
+  .fas.fa-times {
     transform: rotate(180deg);
   }
 
   header .navbar.nav-toggle {
     left: 0;
-  } */
+  }
+}
+
+@media (max-wdth: 720px) {
+  header .navbar ul {
+    flex-flow: column;
+    padding: 3rem;
+  }
 }
 /* for responsiveness end*/
