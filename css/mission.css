@@ -47,6 +47,8 @@
     font-size: 20px;
 }
 
-.hl{
-    border-bottom: 2px solid white;
+hr{
+    width:40%;
+    color: white;
+    height: 2px;
 }
