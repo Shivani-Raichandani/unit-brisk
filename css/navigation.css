@@ -49,7 +49,6 @@ header .navbar ul li:hover {
   padding: 0.7rem 0;
 }
 
-/* for responsiveness */
 #menu {
   font-size: 2rem;
   color: rgb(207, 205, 205);
@@ -58,16 +57,28 @@ header .navbar ul li:hover {
 }
 
 @media (max-width: 860px) {
+  header a img {
+    height: 80px;
+    width: 120px;
+    margin: 0;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+  }
+
   #menu {
     display: block;
   }
 
+  header {
+    background: rgba(0, 0, 0, 0.63);
+  }
+
   header .navbar {
     position: fixed;
-    top: 8rem;
+    top: 6rem;
     left: -120%;
     /* left: 0; */
-    height: 80%;
+    height: 100%;
     width: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.63), #094050af);
     border-top: 0.2rem solid rgba(0, 0, 0, 0.1);
@@ -86,7 +97,8 @@ header .navbar ul li:hover {
 
   header .navbar ul li a {
     display: block;
-    padding: 0.6rem 0.6rem 0.6rem 2rem;
+    font-size: 1.5rem;
+    padding: 0.6rem 0.6rem 0.6rem 1.5rem;
   }
 
   header .navbar ul li a.active,
@@ -94,11 +106,11 @@ header .navbar ul li:hover {
     color: #00c7ff;
     background: linear-gradient(
       to right,
-      rgba(255, 255, 255, 0.459),
+      rgba(255, 255, 255, 0.39),
       rgba(255, 255, 255, 0)
     );
     border-bottom: none;
-    border-left: 0.2rem solid #00c7ff;
+    border-left: 0.4rem solid #00c7ff;
     padding: 0.3rem 0;
   }
 
@@ -110,11 +122,3 @@ header .navbar ul li:hover {
     left: 0;
   }
 }
-
-@media (max-wdth: 720px) {
-  header .navbar ul {
-    flex-flow: column;
-    padding: 3rem;
-  }
-}
-/* for responsiveness end*/
