@@ -47,8 +47,8 @@ section .work {
 
 .round strong {
   position: absolute;
-  top: 29%;
-  left: 7.25%;
+  top: 30%;
+  left: 7%;
   margin-top: -50px;
   transform: translate(-50%);
   font-size: medium;
@@ -65,8 +65,6 @@ section .work {
 }
 
 .swiper-slide {
-  /* background-position: center;
-      background-size: cover; */
   padding: 8% 5% 8% 5%;
   width: 250px;
   height: 300px;
@@ -106,3 +104,377 @@ section .work {
 }
 
 /* slider end */
+
+/* media queries */
+@media (max-width: 1366px) {
+  .work-content {
+    width: 50%;
+    padding-left: 10%;
+    color: #fff;
+    margin-top: -35%;
+  }
+
+  .swiper-container {
+    width: 50%;
+    left: 24%;
+    margin-top: -48%;
+  }
+
+  .swiper-slide .rounds strong {
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    margin-top: 43px;
+    transform: translate(-50%);
+    font-size: large;
+    color: #fff;
+    font-weight: 700;
+  }
+
+  .swiper-slide {
+    padding: 8% 5% 8% 5%;
+    width: 230px;
+    height: 270px;
+    color: #fff;
+    border-radius: 10px;
+    background: linear-gradient(#00c7ff, rgba(255, 255, 255, 0));
+  }
+
+  .round strong {
+    left: 8.5%;
+    top: 30%;
+  }
+}
+@media (max-width: 1255px) {
+  .work-content {
+    width: 50%;
+    padding-left: 10%;
+    color: #fff;
+    margin-top: -40%;
+  }
+
+  .swiper-container {
+    width: 50%;
+    left: 23%;
+    margin-top: -45%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .swiper-container {
+    width: 50%;
+    left: 24%;
+    margin-top: -48%;
+  }
+
+  .round strong {
+    left: 9%;
+    top: 30%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .swiper-container {
+    width: 50%;
+    left: 24%;
+    margin-top: -50%;
+  }
+}
+
+@media (max-width: 1120px) {
+  .work-content {
+    width: 50%;
+    padding-left: 10%;
+    color: #fff;
+    margin-top: -45%;
+  }
+}
+
+@media (max-width: 1080px) {
+  .swiper-container {
+    width: 50%;
+    left: 24%;
+    margin-top: -55%;
+  }
+
+  .round strong {
+    left: 10%;
+    top: 30%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .work-content {
+    width: 50%;
+    padding-left: 10%;
+    padding-right: 3%;
+    color: #fff;
+    margin-top: -48%;
+  }
+  .swiper-container {
+    width: 50%;
+    left: 23%;
+    margin-top: -58%;
+  }
+}
+
+@media (max-width: 900px) {
+  .work-content {
+    width: 50%;
+    padding-left: 10%;
+    color: #fff;
+    margin-top: -58%;
+  }
+
+  .work-content span {
+    color: #00c7ff;
+    font-size: 35px;
+    font-weight: 600;
+  }
+
+  .work-content h1 {
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+  .work-content p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.7rem;
+    margin-top: 1.2rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .swiper-container {
+    width: 45%;
+    left: 24%;
+    margin-top: -60%;
+  }
+
+  .swiper-slide {
+    padding: 8% 5% 8% 5%;
+    width: 200px;
+    height: 240px;
+    color: #fff;
+    border-radius: 10px;
+    background: linear-gradient(#00c7ff, rgba(255, 255, 255, 0));
+  }
+}
+
+@media (max-width: 850px) {
+  .swiper-container {
+    width: 40%;
+    left: 24%;
+    margin-top: -65%;
+  }
+}
+
+@media (max-width: 800px) {
+  .work-content {
+    text-align: center;
+    width: 100%;
+    padding: 0% 10% 0% 10%;
+    color: #fff;
+    margin-top: -65%;
+  }
+
+  .work-content span {
+    color: #00c7ff;
+    font-size: 35px;
+    font-weight: 600;
+  }
+
+  .work-content h1 {
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+  .work-content p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.7rem;
+    margin-top: 1.2rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .round {
+    min-height: 200px;
+    margin-top: 5px;
+    position: relative;
+    margin-bottom: 10px;
+  }
+
+  .round strong {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+  }
+
+  .swiper-container {
+    display: none;
+  }
+}
+
+@media (max-width: 720px) {
+  .work-content {
+    width: 100%;
+    padding-left: 10%;
+    color: #fff;
+    margin-top: -72%;
+  }
+
+  .work-content span {
+    color: #00c7ff;
+    font-size: 35px;
+    font-weight: 600;
+  }
+
+  .work-content h1 {
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+  .work-content p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.7rem;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .round {
+    min-height: 150px;
+    position: relative;
+  }
+
+  .round strong {
+    position: absolute;
+    top: 51%;
+  }
+}
+
+@media (max-width: 550px) {
+  .work-content {
+    width: 100%;
+    padding-left: 10%;
+    color: #fff;
+    margin-top: -85%;
+  }
+
+  .work-content span {
+    color: #00c7ff;
+    font-size: 35px;
+    font-weight: 600;
+  }
+
+  .work-content h1 {
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+  .work-content p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.7rem;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .round {
+    min-height: 150px;
+    position: relative;
+  }
+}
+
+@media (max-width: 480px) {
+  .work-content {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 8%;
+    margin-top: -110%;
+  }
+  .work-content span {
+    color: #00c7ff;
+    font-size: 25px;
+    font-weight: 600;
+  }
+
+  .work-content h1 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .work-content p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.7rem;
+    margin-top: 0.9rem;
+    margin-bottom: 0.9rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .work-content {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 8%;
+    margin-top: -135%;
+  }
+
+  .work-content span {
+    color: #00c7ff;
+    font-size: 25px;
+    font-weight: 600;
+  }
+
+  .work-content h1 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .work-content p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.7rem;
+    margin-top: 0.9rem;
+    margin-bottom: 0.9rem;
+  }
+}
+
+@media (max-width: 310px) {
+  .work-content {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 8%;
+    margin-top: -160%;
+  }
+
+  .work-content span {
+    color: #00c7ff;
+    font-size: 25px;
+    font-weight: 600;
+  }
+
+  .work-content h1 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .work-content p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.7rem;
+    margin-top: 0.9rem;
+    margin-bottom: 0.9rem;
+  }
+}
+
+@media (max-width: 260px) {
+  .work-content {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 8%;
+    margin-top: -208%;
+  }
+}
+/* media queries end */
