@@ -42,9 +42,7 @@
   font-size: 20px;
 }
 
-.hl {
-  border-bottom: 2px solid white;
-}
+
 
 /* media queries */
 @media (max-width: 1366px) {
