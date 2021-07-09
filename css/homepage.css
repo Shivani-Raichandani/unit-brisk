@@ -36,3 +36,50 @@ section .home {
   border-radius: 5px;
   letter-spacing: 3px;
 }
+
+/* media queries */
+@media (max-width: 815px) {
+  .parallax .home .home-content {
+    width: 80%;
+    margin: auto;
+    padding: 38% 5% 0% 5%;
+    text-align: center;
+    color: #fff;
+  }
+
+  .home-content span {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 300px) {
+  .parallax .home .home-content {
+    width: 80%;
+    margin: auto;
+    padding: 50% 5% 0% 5%;
+    text-align: center;
+    color: #fff;
+  }
+
+  .home-content span {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  .home-content h1 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .home-content p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+}
+/* media queries end*/
