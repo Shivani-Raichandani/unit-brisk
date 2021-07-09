@@ -95,9 +95,9 @@ iframe {
     color: white;
   }
   #award {
-    width: 300px;
-    margin-left: 12%;
-    padding-top: 20%;
+    width: 100px;
+    height: 100px;
+    margin-top: 38%;
   }
 
   iframe {
@@ -111,8 +111,8 @@ iframe {
   }
 
   .text h1 {
-    font-size: 34px;
+    font-size: 30px;
     text-align: center;
-    margin-top: -1150px;
+    margin-top: -1080px;
   }
 }
