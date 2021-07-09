@@ -122,3 +122,16 @@ header .navbar ul li:hover {
     left: 0;
   }
 }
+
+@media (max-width: 320px) {
+  header .navbar ul li a {
+    display: block;
+    font-size: 1.2rem;
+    padding: 0.6rem 0.6rem 0.6rem 1rem;
+  }
+
+  header .navbar ul {
+    flex-flow: column;
+    padding: 2rem;
+  }
+}
