@@ -88,4 +88,18 @@ input:hover {
     padding-left: 1%;
   }
 }
+
+@media (max-width: 340px) {
+  .contact-form {
+    width: 80%;
+    padding: 35% 10% 0% 10%;
+  }
+}
+
+@media (max-width: 250px) {
+  .contact-form {
+    width: 80%;
+    padding: 40% 10% 0% 10%;
+  }
+}
 /* media queries end */

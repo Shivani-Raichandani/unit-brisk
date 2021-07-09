@@ -247,3 +247,9 @@
     margin-top: -190%;
   }
 }
+
+@media (max-width: 240px) {
+  .mission-vision-content {
+    margin-top: -220%;
+  }
+}
