@@ -42,8 +42,6 @@
   font-size: 20px;
 }
 
-
-
 /* media queries */
 @media (max-width: 1366px) {
   .mission-vision-content {
@@ -188,3 +186,64 @@
   }
 }
 
+@media (max-width: 400px) {
+  .mission-vision-content {
+    margin-top: -135%;
+  }
+
+  .mission-content p,
+  .vision-content p {
+    font-size: 18px;
+  }
+
+  .mission-heading {
+    font-size: 20px;
+  }
+
+  .mission-content span,
+  .vision-content span {
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 350px) {
+  .mission-vision-content {
+    margin-top: -155%;
+  }
+
+  .vision-content {
+    padding-bottom: 0;
+  }
+}
+
+@media (max-width: 330px) {
+  .mission-vision-content {
+    margin-top: -160%;
+  }
+}
+
+@media (max-width: 315px) {
+  .mission-vision-content {
+    margin-top: -165%;
+  }
+
+  .mission-content p,
+  .vision-content p {
+    font-size: 16px;
+  }
+
+  .mission-content span,
+  .vision-content span {
+    font-size: 18px;
+  }
+
+  .mission-heading {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 285px) {
+  .mission-vision-content {
+    margin-top: -190%;
+  }
+}
