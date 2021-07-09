@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cell Kinetics</title>
     <!-------------------->
+    <!-- Aos link-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!---Aos link end -->
+
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
@@ -24,10 +28,10 @@
     <!-- end font awesome cdn -->
 
     <!---Animate css -->
-    <link
+    <!--link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
+    /-->
 
     <!------------------>
     <!-- box icon -->
@@ -185,7 +189,7 @@
       <!-- home start -->
       <div class="parallax">
         <section class="home" id="home">
-          <div class="home-content">
+          <div class="home-content" data-aos="fade-up-left">
             <h3><span>WHAT WE DO</span></h3>
             <h1>CONTROL CANCER CELLS</h1>
             <p>
@@ -210,7 +214,7 @@
             style="background-size: cover"
           />
           <div class="content">
-            <div class="work-content">
+            <div class="work-content" data-aos="fade-up-right">
               <h3><span>ABOUT THE CELL</span></h3>
               <h1>INTRODUCING THE</h1>
               <h1><b>ABC CELL</b></h1>
@@ -349,7 +353,7 @@
               <div class="row">
                 <div class="vl col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
                 <div class="text col-xs-10 col-sm-10 col-md-10 col-lg-10">
-                  <h1>Awards<span> & </span>Recognition</h1>
+                  <h1 data-aos="fade-left">Awards<span> & </span>Recognition</h1>
                 </div>
               </div>              
             </div>
@@ -374,14 +378,14 @@
             </div>
             <div class="vision-content">
               <span>VISION</span>
-              <p class="animate__animated animate__fadeInRight">
+              <p data-aos="fade-left">
                 To be established as the Leader in Authentic Scientific innovations, as a Hard-Tech Startup company that is capable of turning impossible into reality.
               </p>
             </div>
             <div><hr></div>
             <div class="mission-content">
               <span>MISSION</span>
-              <p class="animate__animated animate__fadeInLeft">
+              <p data-aos="fade-right">
                 To provide best products and services using the best and the most advanced cutting edge technologies, produced
                 in a sustainable manner while respecting our environment, contributing to the well-being of our consumers and enriching
                 their lives!
@@ -558,5 +562,12 @@
     <!-- navigation script -->
     <script src="js/navigation.js"></script>
     <!-- navigation script end -->
+
+    <!-- Aos script start-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- Aos script end -->
   </body>
 </html>
