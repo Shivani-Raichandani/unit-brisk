@@ -26,9 +26,7 @@ header .navbar ul {
 }
 
 header .navbar ul li {
-  width: 120px;
-  text-align: center;
-  margin: 0;
+  margin-left: 1.5rem;
 }
 
 header .navbar ul li a {
@@ -47,3 +45,73 @@ header .navbar ul li:hover {
   border-bottom: 0.2rem solid #00c7ff;
   padding: 0.7rem 0;
 }
+
+/* for responsiveness */
+#menu {
+  font-size: 1.5rem;
+  color: #999;
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 860px) {
+  #menu {
+    display: block;
+  }
+
+  header .navbar {
+    position: fixed;
+    top: 8rem;
+    /* left: -120%; */
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(#fff, #00c7ff);
+    border-top: 0.2rem solid rgba(0, 0, 0, 0.1);
+  }
+
+  header .navbar ul {
+    flex-flow: column;
+    padding: 1rem;
+    /* margin-left: 37%; */
+  }
+
+
+
+  /* header .navbar ul {
+    flex-flow: column;
+    padding: 1rem;
+  }
+
+  header .navbar ul li {
+    text-align: center;
+    width: 100%;
+    margin: 0.8rem 0;
+  }
+
+  header .navbar ul li a {
+    display: block;
+    padding: 0.6rem;
+  }
+
+  header .navbar ul li a.active,
+  header .navbar ul li:hover {
+    color: #00c7ff;
+    background: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0.459)
+    );
+    border-bottom: none;
+    border-left: 0.2rem solid #00c7ff;
+    padding: 0.3rem 0;
+  }
+
+  .fa-times {
+    transform: rotate(180deg);
+  }
+
+  header .navbar.nav-toggle {
+    left: 0;
+  } */
+}
+/* for responsiveness end*/
