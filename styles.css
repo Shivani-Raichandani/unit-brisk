@@ -41,15 +41,3 @@ section {
   padding-right: 0rem;
   overflow: hidden;
 }
-
-/* global media queries */
-@media (max-width: 720px){
-  .section{
-    min-height: 90vh;
-  }
-
-  .parallax{
-    height: 500px;
-  }
-}
-/* global media queries end*/

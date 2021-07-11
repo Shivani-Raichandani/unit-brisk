@@ -16,7 +16,7 @@ section .work {
   width: 50%;
   padding-left: 10%;
   color: #fff;
-  margin-top: -37%;
+  margin-top: -35%;
 }
 
 .work-content span {
@@ -61,7 +61,7 @@ section .work {
 .swiper-container {
   width: 50%;
   left: 23%;
-  margin-top: -35%;
+  margin-top: -28%;
 }
 
 .swiper-slide {
