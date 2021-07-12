@@ -21,7 +21,7 @@ section .work {
 
 .work-content span {
   color: #00c7ff;
-  font-size: larger;
+  font-size: xx-large;
   font-weight: 600;
 }
 
@@ -31,7 +31,7 @@ section .work {
 }
 
 .work-content p {
-  font-size: large;
+  font-size: x-large;
   font-weight: 300;
   line-height: 1.7rem;
   margin-top: 1.2rem;
@@ -43,6 +43,11 @@ section .work {
   margin-top: 30px;
   position: relative;
   margin-bottom: 20px;
+}
+
+.rounds p {
+  left: 2%;
+  margin-top: -35%;
 }
 
 .round strong {
