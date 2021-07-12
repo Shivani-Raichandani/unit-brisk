@@ -37,6 +37,14 @@ section .home {
   letter-spacing: 3px;
 }
 
+.home img {
+  padding-left: 10%;
+  height: 40px;
+  color: #fff;
+  margin-top: 2%;
+  cursor: pointer;
+}
+
 /* media queries */
 @media (max-width: 815px) {
   .parallax .home .home-content {
