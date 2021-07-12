@@ -1,5 +1,5 @@
 <?php
-    $to_email="saumyasrishti2000@gmail.com";//director@bluoceanstudios.com";
+    $to_email="director@bluoceanstudios.com";
     $subject=" Cell Kinectics Contact Messages";
     $firstname=$_POST['fname'];
     $lastname=$_POST['lname'];
@@ -7,7 +7,8 @@
     $mobile=$_POST['mobno'];
     $msg=$_POST['ques'];
     $body="Hello sir..I am $firstname $lastname,\nQuestions/Comments: $msg\n$email\n$mobile";
-    $headers="From: $email";
+    $headers="From: ".$email;
+
     if(mail($to_email,$subject,$body,$headers))
     {
         echo '<script type="text/javascript"> ';
