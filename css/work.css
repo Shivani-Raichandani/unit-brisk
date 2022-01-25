@@ -67,6 +67,7 @@ section .work {
   width: 50%;
   left: 23%;
   margin-top: -28%;
+  float: right;
 }
 
 .swiper-slide {
